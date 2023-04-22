@@ -1,0 +1,46 @@
+nav {
+    background-color: #333; /* set the background color of the navigation bar */
+    color: #fff; /* set the text color of the navigation links */
+    position: fixed; /* set the position of the navigation bar to fixed */
+    top: 0; /* set the distance from the top of the page to the navigation bar */
+    left: 0; /* set the distance from the left of the page to the navigation bar */
+    right: 0; /* set the distance from the right of the page to the navigation bar */
+    padding: 10px; /* add padding to the navigation bar */
+  }
+  
+  nav ul {
+    margin: 0; /* remove default margin from the unordered list */
+    padding: 0; /* remove default padding from the unordered list */
+    list-style: none; /* remove default bullet points from the unordered list */
+  }
+  
+  nav li {
+    display: inline-block; /* display the list items horizontally */
+    margin-right: 20px; /* add some spacing between the list items */
+  }
+  
+  nav a {
+    color: #fff; /* set the color of the navigation links */
+    text-decoration: none; /* remove underline from the navigation links */
+    font-weight: bold; /* make the navigation links bold */
+    font-size: 18px; /* set the font size of the navigation links */
+  }
+  
+  h1 {
+    margin-top: 50px;
+  }
+  
+  body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  
+  .menu-item {
+    transition: font-size 0.2s ease-out, transform 0.2s ease-out;
+  }
+  
+  .menu-item:hover {
+    font-size: 1.8em;
+    transform: scale(1.1);
+  }
+  
+  
