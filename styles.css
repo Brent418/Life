@@ -44,4 +44,11 @@ nav {
     transform: scale(1.1);
   }
   
+  img.beveled {
+    border-radius: 40px;
+  }
+
+  img.circular {
+    border-radius: 50%;
+  }
   
